@@ -1,0 +1,35 @@
+div.contentContainerBig
+    div.contentContainerSmall
+        div.contentHeader
+            form.form-horizontal(action='#')
+              .control-item
+                label.control-label(for='inputFirstName') First Name
+                .controls
+                  input#inputFirstName(type='text', placeholder='First Name', required pattern="[A-Z]{1}[a-z]+")
+              .control-item
+                label.control-label(for='inputLastName') Last Name
+                .controls
+                  input#inputLastName(type='text', placeholder='Last Name', required pattern="[A-Z]{1}[a-z]+")
+              .control-item
+                label.control-label(for='inputPhone') Phone
+                .controls
+                  input#inputPhone(type='text', placeholder='xxx-xxx-xx-xx', required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}")
+              .control-item
+                label.control-label(for='inputGender') Gender
+                .controls
+                  input#inputGender(type='text', placeholder='male/female', required pattern="male||female")
+              .control-item
+                label.control-label(for='inputAge') Age
+                .controls
+                  input#inputAge(type='text', placeholder='xx', required pattern="[0-9]{2}")
+              .control-item
+                .controls
+                  .col-sm-offset-2.col-sm-10
+                    button.btn.newClientButton(type='submit') Add New Client
+        table.table.table-condensed.table-hover
+            tr.success
+                td First Name
+                td Last Name
+                td Phone
+                td Gender
+                td Age

@@ -1,0 +1,23 @@
+[
+    {
+        "firstName":"Ivan",
+        "lastName":"Yanchenko",
+        "phone":"091-311-11-11",
+        "gender":"male",
+        "age":"33"
+    },
+    {
+        "firstName":"Larisa",
+        "lastName":"Grishina",
+        "phone":"050-222-22-22",
+        "gender":"female",
+        "age":"25"
+    },
+    {
+        "firstName":"Kristina",
+        "lastName":"Boiko",
+        "phone":"093-543-22-22",
+        "gender":"female",
+        "age":"28"
+    }
+]
